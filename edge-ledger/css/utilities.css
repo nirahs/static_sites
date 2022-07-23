@@ -1,0 +1,76 @@
+/* Text Colors */
+
+.text-primary {
+  color: #28a745;
+}
+
+.text-secondary {
+  color: #0284d0;
+}
+
+/* Buttons */
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  /* color: #fff; */
+  /* background-color: #28a745; */
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-primary {
+  background: #28a745;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: #0284d0;
+  color: #fff;
+}
+
+.btn-dark {
+  background: #333;
+  color: #fff;
+}
+
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Flex Items */
+
+.flex-items {
+  display: flex;
+  height: 100%;
+  /* justify-content: center; */
+}
+
+.flex-items > div {
+  padding: 20px;
+}
+
+/* Flex Columns */
+
+.flex-columns .row {
+  display: flex;  
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-columns .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  margin: 10px;
+}
+
+.flex-columns .column

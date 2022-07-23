@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+/* Body */
+/* Common */
+
+#france-body{
+    font-family: 'Nunito', sans-serif;
+    line-height:18px;
+    background-color:white;
+}
+#france-body .starting-text{
+    color:black;
+    background-color:rgb(113, 233, 233);
+    border-radius:40px;
+    padding:8px;
+    text-decoration: none;
+}
+#france-body .group-heading{
+    text-align:center;
+    padding:30px;
+    text-decoration:underline;
+    font-size:30px;
+    line-height:35px;
+}
+#france-body .line-breaker{
+    border-bottom:1px solid black;
+    margin:20px 10px;
+    margin-bottom:0px;
+    clear: both;
+}
+
+/* Header */
+
+#france-header{
+    background:url("../imgs/france-1790999_1920.jpg") no-repeat top center/cover;
+    width:100%;
+    height:100vh;
+}
+
+/* Nav-bar */
+
+#france-header #nav-bar .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#france-header #nav-bar .container h1{
+    padding:20px;
+    margin:8px;
+}
+#france-header #nav-bar .container #logo{
+    width: 80px;
+    height:80px;
+    margin-top:-18px;
+    /* background-color: white;
+    border-radius:100%; */
+    padding: 0px;
+}
+#france-header  #nav-bar .container ul{
+    display: inline;
+}
+#france-header  #nav-bar .container ul li{
+    float:left;
+    list-style-type:none;
+}
+#france-header  #nav-bar .container a{
+    text-decoration:none;
+    color:white;
+}
+#france-header  #nav-bar .container ul li a{
+    display:block;
+    padding:15px;
+    margin:8px 8px 0px 8px;
+    font-weight: bold;
+}
+#france-header  #nav-bar .container ul li a:hover{
+    background-color:rgb(113, 233, 233);
+    border-radius: 30px;
+    color: black;
+}
+
+/* Landing page */
+
+#france-header  #landing-page{
+    width:100%; 
+}
+#france-header  #landing-page .container{
+    padding:200px 20px;
+    text-align:center;
+}
+#france-header  #landing-page .container h1{
+    color:white;
+    padding-bottom:15px;
+    font-size:32px;
+    line-height:40px;
+}
+#france-header  #landing-page .container{
+    color:white;
+    font-size:15px;
+    line-height:25px;
+}
+#france-header  #landing-page .container .landing-page-info{
+    height:150px;
+    padding:15px auto;
+    margin-bottom:4px;
+}
+#france-header  #landing-page .container .landing-page-info p{
+    margin:6px auto;
+}
+#france-header  #landing-page .container .landing-page-info #places,#things{
+    margin-top:30px;
+    padding:4px;
+    background-color: rgb(113, 233, 233);
+    border-radius:30px;
+    text-decoration: none;
+    color:black;
+}
+#france-header  #landing-page .container .landing-page-info #places:hover,#things:hover {
+    text-decoration: underline;
+}
+
+/* First-section */
+
+#first-france-section {
+    width:100%;
+}
+
+/* first section containers */ 
+
+#first-france-section  .container{
+    position: relative;
+    margin:40px auto;
+    height:330px;
+}
+
+/* Images */
+
+#first-france-section  .container img{
+    border-radius:5px;
+    margin:0 10px;
+    width:150px;
+    height:230px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 1s, height 1s;
+}
+#first-france-section  .container  img:hover{
+    height:250px; 
+    width:170px;
+    box-shadow:0 22px 20px 0 rgba(0, 0, 0, 0.2), 0 26px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Articles */
+
+#first-france-section  .container .container-info h1{
+    position:absolute;
+    top:5px;
+    left:190px;
+}
+#first-france-section  .container .container-info p{
+    text-align:left;
+    position:absolute;
+    top:25px;
+    left:180px;
+    padding:10px;
+    font-size:15px;
+    line-height:20px;
+}
+
+/* Second Section */
+
+#second-france-section{
+    width:100%;
+}
+
+/* Second Section containers*/
+
+#second-france-section .container{
+    margin:20px auto;
+    display:grid;
+    grid-template-columns: auto auto;
+    height:300px;
+}
+
+/* Articles */
+
+#second-france-section .container .container-info{
+    margin:40px 20px 40px 0px;
+    padding:10px 0px;
+}
+#second-france-section .container .container-info h1{
+    text-align:left;
+    margin-left:17px;
+    line-height:30px;
+}
+#second-france-section .container .container-info p{
+    text-align:left;
+    padding:10px;
+    font-size:15px;
+    line-height:20px;
+    margin:5px;
+}
+
+/* Images */
+
+#second-france-section .container img{
+    border-radius:5px;
+    transition: width 1s, height 1s;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:150px;
+    height:230px;
+    margin:10px;
+    margin-top:55px;
+}
+#second-france-section .container img:hover{
+    height:240px; 
+    width:160px;
+    box-shadow:0 22px 20px 0 rgba(0, 0, 0, 0.2), 0 26px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Footer */
+
+#france-footer{
+    width:100%;
+    padding:25px;
+    margin-top:20px;
+    border-top:1px solid black;
+    background: url("../imgs/sky.jpg") no-repeat center center/cover;
+}
+#france-footer .links-container{
+    display: grid;
+    column-gap:20px;
+    grid-template-columns: auto auto auto;
+    padding:10px;
+}
+#france-footer .links-container .group-links .links-heading,.links{
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    color:white;
+}
+#france-footer .links-container .group-links .links-heading{
+    font-size:20px;
+    margin:5px 2px ;
+}
+#france-footer .links-container .group-links .links{
+    font-size: 14px;
+    margin:3px 2px;
+    color: white;
+}
+#france-footer .links-container .group-links .links:hover{
+    text-decoration: underline;
+}
+#france-footer .author h4{
+    color:white;
+    text-align: center;
+    margin-top:20px;
+}
+
